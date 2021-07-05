@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/home.style.css">
+    <title>FE21-CR01-nikosBatzonis</title>
+
+    <style>
+        body {
+            font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="name">
+                <p>Nikolaos Batzonis- Frontend Web Developer</p>
+            </div>
+            <div class="headerLogo"><img src="Images/logo.png" alt="logo CodeFactory" class="logo" /></div>
+        </header>
+        <nav>
+            <ul id="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="HTML/blog.html">Blog</a></li>
+                <li><a href="HTML/mySurvey.html">My Survey</a></li>
+                <li><a href="HTML/contact.html">Contact</a></li>
+                <li><a href="HTML/animate.html">Animation</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="main">
+                <h1>This is my first website <span>&#128515</span></h1>
+                <div class="float">
+                    <figure class="imgHeader">
+                        <img src="Images/Phone.png" alt="Phone" class="imgPhone">
+                        <figcaption class="sg"> Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</figcaption>
+                    </figure>
+                    <div class="moveLeft">
+                        <figure class="leftColm">
+                            <img src="Images/Debit_card_ATM.jpg" alt="Debit-card-ATM" class="imgCard">
+                            <figcaption class="atm">Police are investigating three ATM explosions in two Florida countries</figcaption>
+                        </figure>
+                        <figure class="rightColm">
+                            <img src="Images/Taxify-Scooters.jpg" alt="Taxify-scooters" class="imgScooter">
+                            <figcaption class="es">E-scooter firm Bolt pulls out of 12 cities</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="contFooter">
+                <figure>
+                    <img src="Images/logo.png" alt="logo CodeFactory" class="logoFooter" />
+                </figure>
+                <h5>Nikolaos Batzonis CodeFactory 2021</h5>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        //SweetAlert email
+
+        (async() => {
+
+            const {
+                value: email
+            } = await Swal.fire({
+                title: 'Input email address',
+                input: 'email',
+                inputLabel: 'Your email address',
+                inputPlaceholder: 'Enter your email address'
+            })
+
+            if (email) {
+                Swal.fire(`Entered email: ${email}`)
+            }
+
+        })()
+    </script>
+
+</body>
+
+</html>

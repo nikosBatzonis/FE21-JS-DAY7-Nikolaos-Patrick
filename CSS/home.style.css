@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+header {
+    background: rgb(202, 187, 183);
+}
+
+.headerLogo {
+    text-align: right;
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.name {
+    width: 60%;
+    position: relative;
+    padding-right: 40px;
+    top: 70px;
+    left: 70px;
+}
+
+.logo {
+    width: 35%;
+    position: relative;
+    padding-right: 100px;
+    margin-bottom: 40px;
+}
+
+header li,
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav {
+    height: 50px;
+}
+
+#navbar {
+    position: relative;
+    margin: 0;
+    padding-top: 10px;
+}
+
+nav {
+    background: rgb(198, 82, 82);
+    margin: 0;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 5px;
+    margin-top: -10px;
+}
+
+li a {
+    position: relative;
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 35%;
+    width: 40%;
+}
+
+
+/* float the images*/
+
+.float {
+    margin: 0px;
+    width: 100%;
+}
+
+.imgHeader {
+    width: 100%;
+    float: left;
+    margin: 0px;
+}
+
+.leftColm {
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+
+.rightColm {
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+
+.imgCard,
+.imgScooter {
+    width: 80%;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.sg {
+    width: 90%;
+}
+
+.imgPhone {
+    width: 90%;
+    margin-top: 80px;
+    height: 320px;
+    /* height of container */
+    object-fit: cover;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.atm {
+    width: 90%;
+    padding-left: 50px;
+}
+
+.es {
+    width: 80%;
+    padding-left: 30px;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+}
+
+.contFooter {
+    background-color: rgb(202, 187, 183);
+    position: relative;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.logoFooter {
+    width: 15%;
+}
+
+footer,
+h5 {
+    text-align: center;
+    height: 40px;
+}

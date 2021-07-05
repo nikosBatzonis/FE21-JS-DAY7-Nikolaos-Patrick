@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(70, 70, 250);
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+header {
+    background: rgb(202, 187, 183);
+}
+
+.headerLogo {
+    text-align: right;
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.name {
+    width: 60%;
+    position: relative;
+    padding-right: 40px;
+    top: 70px;
+    left: 70px;
+}
+
+.logoUp {
+    width: 35%;
+    position: relative;
+    padding-right: 100px;
+    margin-bottom: 40px;
+}
+
+header li,
+.navi li {
+    display: inline;
+    list-style-type: none;
+}
+
+.navi {
+    background: rgb(198, 82, 82);
+    margin: 0;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 5px;
+    margin-top: -10px;
+    height: 50px;
+}
+
+.naviOne a {
+    position: relative;
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+#navbar {
+    position: relative;
+    margin: 0;
+    padding-top: 10px;
+}
+
+
+/* From here the css for the news */
+
+.containerTwo {
+    width: 65%;
+    margin-left: 50px;
+}
+
+.nav-news {
+    color: gray;
+    text-decoration-line: none;
+}
+
+.navbar {
+    background: rgb(53, 53, 172);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+}
+
+.navbar li {
+    float: left;
+    padding: 18px;
+    font-size: 14px;
+}
+
+.nav {
+    text-decoration-line: none;
+    color: white;
+    font-weight: bold;
+}
+
+.news {
+    color: white;
+    font-size: 30px;
+}
+
+.logo {
+    width: 150px;
+}
+
+section li {
+    display: inline;
+    padding: 5%;
+}
+
+.corona {
+    width: 15%;
+}
+
+.weather {
+    color: white;
+    font-weight: bold;
+}
+
+main a {
+    text-decoration-line: none;
+    color: white;
+}
+
+main span.one {
+    position: absolute;
+    left: 60px;
+    width: 170px;
+    top: 510px;
+}
+
+.left {
+    float: left;
+    width: 180px;
+    margin-right: -5px;
+}
+
+.right {
+    position: relative;
+    width: 100px;
+    left: 705px;
+    top: -275px;
+    padding-left: 0px;
+}
+
+.center-up {
+    padding: 1px;
+}
+
+main span.two {
+    position: absolute;
+    left: 240px;
+    width: 250px;
+    top: 380px;
+    color: black;
+    font-weight: bold;
+}
+
+main span.three {
+    position: absolute;
+    left: 590px;
+    width: 170px;
+    top: 380px;
+}
+
+main span.four {
+    position: absolute;
+    left: 240px;
+    width: 170px;
+    top: 490px;
+}
+
+main span.five {
+    position: absolute;
+    left: 410px;
+    width: 250px;
+    top: 510px;
+}
+
+main {
+    height: 280px;
+}
+
+.general li,
+footer li,
+header li {
+    list-style-type: none;
+    width: 100%;
+}
+
+.general {
+    background: rgb(74, 74, 253);
+    padding-top: 10px;
+    padding-left: 100px;
+    height: 240px;
+    margin-top: -7px;
+}
+
+.title {
+    float: left;
+    width: 100px;
+    margin-left: 100px;
+    color: rgb(74, 74, 92);
+    font-weight: 200;
+    padding: 8px;
+}
+
+.comment {
+    float: left;
+    width: 400px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 200;
+    padding: 8px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.about {
+    text-decoration-line: none;
+    color: white;
+    float: left;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+    background-color: rgb(26, 26, 87);
+    height: 55px;
+    font-size: 17px;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.footer img {
+    padding-top: 7px;
+    padding-left: 30px;
+    width: 80px;
+}
+
+footer {
+    background: rgb(39, 39, 160);
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+h2 {
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 50px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.sticky {
+    color: white;
+    width: 95%;
+    margin-left: 20px;
+    line-height: 1.2;
+}
+
+.cookie {
+    color: white;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.btn {
+    background: green;
+    border-style: none;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    font-size: 15px;
+    margin-left: 68%;
+    position: relative;
+    margin-top: -60px;
+}

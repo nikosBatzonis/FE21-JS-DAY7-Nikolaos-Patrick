@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/mySurvey.style.css" />
+    <title>FE21-CR01-nikosBatzonis</title>
+</head>
+
+<body>
+    <header>
+        <div class="name">
+            <p class="web">Nikolaos Batzonis- Frontend Web Developer</p>
+        </div>
+        <div class="headerLogo">
+            <img src="../Images/logo.png" alt="logo CodeFactory" class="logo" />
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li><a href="../HTML/blog.html">Blog</a></li>
+            <li><a href="#">My Survey</a></li>
+            <li><a href="../HTML/contact.html">Contact</a></li>
+            <li><a href="../HTML/animate.html">Animation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 class="vibes">Good Vibes Form</h1>
+
+        <div id="big-form">
+            <form>
+                <p>Tell us somerhing positive that happened to you today</p>
+
+                <div class="config">
+                    <section id="name">
+                        <label class="enterName" for="name">Name</label>
+                        <input type="text" name="name" placeholder="Enter your name" />
+                    </section>
+                </div>
+                <div class="config">
+                    <section id="email">
+                        <label class="email" for="email">Email</label>
+                        <input id="adress" type="text" name="email" placeholder="Enter your email adress" />
+                    </section>
+                </div>
+                <div class="config">
+                    <section id="scale">
+                        <labe class="number" for="number">On a scale of 1-10, how good was it?</labe>
+                        <input id="number" type="number" name="number" placeholder="Enter a number between 1 anb 10" min="1" max="10" />
+                    </section>
+                </div>
+                <div class="config">
+                    <section id="happen">
+                        <label class="happen" for="happen">Where did it happen?</label>
+                        <input id="where" type="text" list="happening" name="happen" />
+                        <datalist id="happening">
+                <option value="At Home"></option>
+                <option value="On my commute"></option>
+                <option value="At Work"></option>
+                <option value="On the street"></option>
+                <option value="Other"></option>
+              </datalist>
+                    </section>
+                </div>
+                <div class="config">
+                    <section class="radio">
+                        <label for="what">At what time of day tha happen?</label>
+
+                        <div class="excited">
+                            <input id="morning" type="radio" name="morning" />
+                            <label id="aftern" for="morning">Morning</label>
+                        </div>
+                        <div>
+                            <input id="afternoon" type="radio" name="afternoon" />
+                            <label id="aftern" for="afternoon">Afternoon</label>
+                        </div>
+                        <div>
+                            <input id="evening" type="radio" name="evening" />
+                            <label id="aftern" for="evening">Evening</label>
+                        </div>
+                    </section>
+                </div>
+                <div class="config">
+                    <section id="emotions">
+                        <label for="experience">What emotions did you experience?<br />(Select all
+                thatapply)</label
+              >
+              <div class="excited">
+                <input id="" name="excited" type="checkbox" />
+                <label id="" for="excited">Excited</label>
+                </div>
+                <div>
+                    <input id="" name="humbled" type="checkbox" />
+                    <label id="" for="humbled">Humbled</label>
+                </div>
+                <div>
+                    <input id="" name="elated" type="checkbox" />
+                    <label id="" for="elated">Elated</label>
+                </div>
+                <div>
+                    <input id="" name="loved" type="checkbox" />
+                    <label id="" for="loved">Loved</label>
+                </div>
+                <div>
+                    <input id="" name="enthusiastic" type="checkbox" />
+                    <label id="" for="enthusiastic">Enthusiastic</label>
+                </div>
+                </section>
+        </div>
+
+
+        <div class="config">
+            <section id="positive">
+                <div>
+                    <label id="labelexp" for="experience">Plesase describe your positive experience.</label
+                >
+              </div>
+              <div class="excited">
+                <textarea id="experience" name="experience" rows="4" cols="40">
+                        Enter your experience here...
+                    </textarea
+                >
+              </div>
+            </section>
+          </div>
+        </main>
+       <div class="btn">
+      <button class="btn-submit">Submit</button>
+    </div>
+      </form>
+    </div>
+    <footer>
+        <div class="contFooter">
+            <figure>
+                <img src="../Images/logo.png" alt="logo CodeFactory" class="logoFooter" />
+            </figure>
+            <h5>Nikolaos Batzonis CodeFactory 2021</h5>
+        </div>
+    </footer>
+  </body>
+
+
+
+  </html>

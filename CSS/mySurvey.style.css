@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(111, 188, 240, 0.712);
+    font-family: Sans-serif;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+header {
+    background: rgb(202, 187, 183);
+}
+
+.headerLogo {
+    text-align: right;
+    position: relative;
+}
+
+.web {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.name {
+    width: 60%;
+    position: relative;
+    padding-right: 40px;
+    top: 70px;
+    left: 70px;
+}
+
+.logo {
+    width: 35%;
+    position: relative;
+    padding-right: 100px;
+    margin-bottom: 40px;
+}
+
+header li,
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav {
+    height: 50px;
+}
+
+#navbar {
+    position: relative;
+    margin: 0;
+    padding-top: 10px;
+}
+
+nav {
+    background: rgb(198, 82, 82);
+    margin: 0;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 5px;
+    margin-top: -10px;
+}
+
+li a {
+    position: relative;
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.vibes {
+    text-align: center;
+    font-size: 45px;
+}
+
+#big-form {
+    background-color: rgb(255, 240, 240);
+    padding-left: 50px;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+#number {
+    width: 30%;
+}
+
+.enterName,
+.number,
+.happen {
+    padding-right: 50px;
+}
+
+.email {
+    padding-right: 53px;
+}
+
+.radio {
+    margin-right: 20px;
+}
+
+.config {
+    padding-top: 20px;
+}
+
+.excited {
+    padding-top: 10px;
+}
+
+.btn-submit {
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 40px;
+    background: greenyellow;
+}
+
+.btn {
+    text-align: center;
+}
+
+.contFooter {
+    background-color: rgb(202, 187, 183);
+    position: relative;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.logoFooter {
+    width: 15%;
+}
+
+footer,
+h5 {
+    text-align: center;
+    height: 40px;
+}
